@@ -6,7 +6,6 @@ body {
 .web-studio-logo {
 
   text-decoration: none;
-  
 }
 
 .web-studio-logo-web {
@@ -33,11 +32,13 @@ body {
 
 .web-studio-logo:hover,
 .web-studio-logo:focus {
+
   text-decoration: underline;
   color: #2196f3;
 }
 
 .first-list {
+
   list-style-type: none;
 }
 
@@ -54,6 +55,7 @@ body {
 
 .agency:hover,
 .agency:focus {
+
   color: #2196f3;
 }
 
@@ -70,6 +72,7 @@ body {
 
 .portfolio:hover,
 .portfolio:focus {
+
   color: #2196f3;
 }
 
@@ -90,6 +93,7 @@ body {
 }
 
 .second-list {
+
   list-style-type: none;
 }
 
@@ -122,6 +126,7 @@ body {
 
 .phone-top:hover,
 .phone-top:focus {
+
   color: #2196f3;
 }
 
@@ -161,6 +166,7 @@ body {
 
 .button-main:hover,
 .button-main:focus {
+
   background: #2196f3;
   color: #ffffff;
   background: #2196f3;
@@ -362,6 +368,7 @@ body {
 }
 
 .portfolio-pics {
+  
   display: none;
 }
 
