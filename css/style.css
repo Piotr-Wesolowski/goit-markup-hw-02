@@ -1,7 +1,7 @@
 :root {
   --black-main: #212121;
   --second-black: #000000;
-  --blue-main: #2196f3;
+  --main-blue: #2196f3;
   --background-grey: #2f303a;
   --main-white: #ffffff;
   --second-white: #f5f4fa;
@@ -149,7 +149,6 @@ body {
 .main-title-text {
   
   font-style: normal;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -199,7 +198,6 @@ body {
 .lorem {
   
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -209,7 +207,6 @@ body {
 .lorem-text {
   
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -219,7 +216,6 @@ body {
 .whats-up {
   
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -234,7 +230,6 @@ body {
 .our-team {
   
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -259,12 +254,22 @@ body {
 .list-fifth-pic-position {
   
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-silver);
+}
+
+.web-studio-logo-studio-bottom {
+
+  font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
 }
 
 .web-studio-logo-footer {
@@ -298,7 +303,6 @@ body {
 .street {
   
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -309,7 +313,6 @@ body {
   
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -326,7 +329,6 @@ body {
  
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -393,7 +395,6 @@ body {
 .portfolio-pic-description {
   
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
