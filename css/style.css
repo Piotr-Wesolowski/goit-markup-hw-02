@@ -1,6 +1,17 @@
+:root {
+  --black-main: #212121;
+  --second-black: #000000;
+  --blue-main: #2196f3;
+  --background-grey: #2f303a;
+  --main-white: #ffffff;
+  --second-white: #f5f4fa;
+  --main-silver: #757575;
+}
+
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .web-studio-logo {
@@ -16,25 +27,25 @@ body {
   font-size: 26px;
   line-height: 1;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .web-studio-logo-studio {
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
+  
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--second-black);
+  }
 
 .web-studio-logo:hover,
 .web-studio-logo:focus {
 
   text-decoration: underline;
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .first-list {
@@ -50,13 +61,13 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .agency:hover,
 .agency:focus {
 
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .portfolio {
@@ -67,13 +78,13 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .portfolio:hover,
 .portfolio:focus {
 
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .contact {
@@ -84,12 +95,12 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .contact:hover,
 .contact:focus {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .second-list {
@@ -105,12 +116,12 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .mail-top:hover,
 .mail-top:focus {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .phone-top {
@@ -121,18 +132,18 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-silver);
 }
 
 .phone-top:hover,
 .phone-top:focus {
 
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .main-title-border {
   
-  background: #2f303a;
+  background: var(--background-grey);
 }
 
 .main-title-text {
@@ -144,12 +155,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .button-main {
   
-  background: #f5f4fa;
+  background: var(--second-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto";
@@ -161,15 +172,14 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .button-main:hover,
 .button-main:focus {
 
-  background: #2196f3;
-  color: #ffffff;
-  background: #2196f3;
+  background: var(--main-blue);
+  color: var(--main-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -203,7 +213,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-silver);
 }
 
 .whats-up {
@@ -254,7 +264,7 @@ body {
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-silver);
 }
 
 .web-studio-logo-footer {
@@ -272,12 +282,12 @@ body {
 .webs-tudio-logo-footer:focus {
 
   text-decoration: underline;
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .footer-background {
 
- background: #2f303a;
+ background: var(--background-grey);
 }
 
 .sixth-list {
@@ -292,7 +302,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .mail-bottom {
@@ -309,7 +319,7 @@ body {
 .mail-bottom:hover,
 .mail-bottom:focus {
 
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .phone-bottom {
@@ -326,7 +336,7 @@ body {
 .phone-bottom:hover,
 .phone-bottom:focus {
 
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .portfolio-filter {
@@ -341,7 +351,7 @@ body {
 
 .button-portfolio {
   
-  background: #f5f4fa;
+  background: var(--second-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -352,15 +362,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
 
-  background: #2196f3;
-  color: #ffffff;
-  background: #2196f3;
+  background: var(--main-blue);
+  color: var(--main-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -388,5 +397,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-silver);
 }
